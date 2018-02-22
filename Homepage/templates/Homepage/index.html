@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+{% load staticfiles %}
+<html lang="en" style="background-color: #88794E">
+<head>
+    <meta charset="UTF-8">
+    <title>Dragon Slayer</title>
+    <link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}" type="text/css" />
+</head>
+<body style="background-color: #88794E">
+    <div style="position: relative; text-align: center">
+        <img src="{% static 'img/titlebg.png' %}"/>
+        <div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);">
+    <h1>
+        Dragon Slayer
+        <small class="text-muted">the website</small>
+    </h1>
+        </div>
+    </div>
+<div class="m-5 pt-2 pl-2" style="width: 320px; height: 1500px; float: left; position: relative; bottom: 115px; right: 50px">
+    <img src="{% static 'img/leftbg.png' %}" style="border: 3px solid #2F2F2F"/>
+</div>
+<div class="m-5 pt-2 pr-5" style="width: 320px; height: 1500px; float: right; position: relative; bottom: 115px; left: 35px">
+    <img src="{% static 'img/rightbg.png' %}" style="border: 3px solid #2F2F2F"/>
+</div>
+  <div class="text-center">
+    <div id="button-container" class="btn-group m-3">
+        <a href="..\"><button class="btn btn-primary">Home</button></a>
+        <a href="/code"><button class="btn btn-primary">Source Code</button></a>
+        <a href="/downloads"><button class="btn btn-primary">Downloads</button></a>
+        <a href="/citations"><button class="btn btn-primary">Citation</button></a>
+
+    </div>
+      <div style="font-size:25px"><p>Dragon Slayer is a simple role playing game made by Logan Czernel, aged 17.
+          <br>
+          <br>You play as a warrior in a small peaceful village. One day, the dragon held captive deep in the nearby castle dungeon escapes, and takes your son's life. With the help of the Wise Mage and your fellow villagers, you upgrade your tools and abilities in order to fight your way to the dragon...
+          <br>and slay it!
+          <br>
+          <br>First, you must find it! Explore all 12 maps, uncover secrets buried in the sands of the southern deserts, beat the cold of the western blizzards, light up the caves deep underneath the northern river, or hike through the eastern plains!
+          <br>
+          <br>You may need help! There are 2 side quests in order to upgrade your equipment to help you beat the boss! Also keep an eye out for small details as there are 2 'hidden' upgrades! Remember- X marks the spot!
+          <br>
+          <br>Be careful! With 5 different types of hostile mobs roaming around, the world is a dangerous place. However, kill these mobs to collect coins! Explore the town to find a shop- purchase health potions to help you in your great quest!
+          <br>
+          <br>Best of luck!
+      </p>
+      </div>
+  </div>
+</body>
+</html>

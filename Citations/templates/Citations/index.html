@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+{% load staticfiles %}
+<html lang="en" style="background-color: #46484f">
+<head>
+    <meta charset="UTF-8">
+    <title>Dragon Slayer</title>
+    <link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}" type="text/css" />
+</head>
+<body style="background-color: #46484f">
+    <div style="position: relative; text-align: center">
+        <img src="{% static 'img/titlebg.png' %}"/>
+        <div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);">
+    <h1>
+        Dragon Slayer
+        <small class="text-muted">the website</small>
+    </h1>
+        </div>
+    </div>
+<div class="m-5 pt-2 pl-2" style="width: 320px; height: 1500px; float: left; position: relative; bottom: 115px; right: 50px">
+    <img src="{% static 'img/caveleftbg.png' %}" style="border: 3px solid #2F2F2F"/>
+</div>
+<div class="m-5 pt-2 pr-5" style="width: 320px; height: 1500px; float: right; position: relative; bottom: 115px; left: 35px">
+    <img src="{% static 'img/caverightbg.png' %}" style="border: 3px solid #2F2F2F"/>
+</div>
+  <div class="text-center">
+    <div id="button-container" class="btn-group m-3">
+        <a href="..\"><button class="btn btn-primary">Home</button></a>
+        <a href="/code"><button class="btn btn-primary">Source Code</button></a>
+        <a href="/downloads"><button class="btn btn-primary">Downloads</button></a>
+        <a href=""><button class="btn btn-primary">Citation</button></a>
+
+    </div>
+      <div style="font-size:25px">
+          <p>I am no artist, so all the art and music seen in the games were created by downloading free art and editing that to fit my purpose. Apologies if I failed to name some contributors. Special thanks to all those listed:
+          <ul>
+          <li>OpenGameArt.org</li>
+          <li>Google Images</li>
+      </ul>
+          </p>
+      </div>
+  </div>
+</body>
+</html>

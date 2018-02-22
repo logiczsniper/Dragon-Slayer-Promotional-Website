@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+{% load staticfiles %}
+<html lang="en" style="background-color: #86BFB6">
+<head>
+    <meta charset="UTF-8">
+    <title>Dragon Slayer</title>
+    <link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}" type="text/css" />
+</head>
+<body style="background-color: #86BFB6">
+    <div style="position: relative; text-align: center">
+        <img src="{% static 'img/titlebg.png' %}"/>
+        <div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);">
+    <h1>
+        Dragon Slayer
+        <small class="text-muted">the website</small>
+    </h1>
+        </div>
+    </div>
+<div class="m-5 pt-2 pl-2" style="width: 320px; height: 1500px; float: left; position: relative; bottom: 115px; right: 50px">
+    <img src="{% static 'img/snowleftbg.png' %}" style="border: 3px solid #2F2F2F"/>
+</div>
+<div class="m-5 pt-2 pr-5" style="width: 320px; height: 1500px; float: right; position: relative; bottom: 115px; left: 35px">
+    <img src="{% static 'img/snowrightbg.png' %}" style="border: 3px solid #2F2F2F"/>
+</div>
+  <div class="text-center">
+    <div id="button-container" class="btn-group m-3">
+        <a href="..\"><button class="btn btn-primary">Home</button></a>
+        <a href="/code"><button class="btn btn-primary">Source Code</button></a>
+        <a href=""><button class="btn btn-primary">Downloads</button></a>
+        <a href="/citations"><button class="btn btn-primary">Citation</button></a>
+
+    </div>
+      <div style="font-size:25px">
+          <p>You can choose a version of Dragon Slayer and download it by clicking on one of the following:
+          <br>
+          </p>
+      </div>
+      <table style="position: absolute; left: 645px; border-collapse: collapse">
+  <thead>
+    <tr>
+      <th style="width: 110px; height: 50px; border: 1px solid black;">Version</th>
+      <th style="width: 110px; height: 50px; border: 1px solid black;">Link</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="border: 1px solid black;">V1</td>
+      <td style="border: 1px solid black;">*LINK*</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid black;">V2</td>
+      <td style="border: 1px solid black;">*LINK*</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid black;">V3</td>
+      <td style="border: 1px solid black;">*LINK*</td>
+    </tr>
+  </tbody>
+</table>
+  </div>
+</body>
+</html>
